@@ -9,8 +9,11 @@ addTask("Hacer ejercicio");
 // Listar tareas
 listTasks();
 
-// Eliminar una tarea
+// Actualizar la primera tarea (índice 0)
+updateTask(0, "Estudiar Node.js avanzado");
+
+// Eliminar una tarea (por ejemplo, la del índice 1)
 removeTask(1);
 
-// Listar nuevamente para verificar
+// Listar nuevamente para verificar los cambios
 listTasks();
